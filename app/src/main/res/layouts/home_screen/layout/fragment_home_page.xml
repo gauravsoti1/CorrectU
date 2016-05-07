@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin2"
+    android:animateLayoutChanges="true"
+    android:background="@null"
+    tools:context=".home_screen.HomePageActivityFragment"
+    tools:showIn="@layout/activity_home_page">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/activate_persistent_notification_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin4"
+        android:paddingBottom="@dimen/margin2"
+        android:paddingLeft="@dimen/margin2"
+        android:paddingRight="@dimen/margin2"
+        app:cardBackgroundColor="@color/dark_blue"
+        app:cardCornerRadius="2dp"
+        app:contentPaddingTop="@dimen/margin3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:id="@+id/activate_setting_instruction_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin2"
+                android:layout_marginRight="@dimen/margin2"
+                android:background="@null"
+                android:text="@string/activate_persistent_notification_instruction"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_body2" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activate_setting_instruction_text"
+                android:layout_marginTop="@dimen/margin4"
+                android:background="@null">
+
+                <Button
+                    android:id="@+id/instruction_activate_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_size1"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_transparent_with_stroke"
+                    android:text="@string/activate"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/ts_button3"
+
+                    />
+
+                <Button
+                    android:id="@+id/instruction_later_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_size1"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_transparent_with_stroke"
+                    android:text="@string/later"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/ts_button3" />
+
+            </TableRow>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/home_screen_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activate_persistent_notification_cardview"
+        android:background="@android:color/white"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

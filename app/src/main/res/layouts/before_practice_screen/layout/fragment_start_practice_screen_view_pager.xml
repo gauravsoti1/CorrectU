@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/colorAccent"
+    android:background="@null"
+    tools:context="androidavengers.correctu.before_practice_screen.StartPracticeScreenViewPagerActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/word_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_display1"
+        android:textColor="@android:color/white"
+
+        tools:text="Candor"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_display2"
+        android:textColor="@android:color/white"
+        tools:text="Start"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/word_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin5"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_size1"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/previous_btn"
+            android:layout_height="@dimen/button_size0"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_bg_transparent_with_stroke"
+            android:text="@string/previous"
+            android:textSize="@dimen/ts_button2"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/next_btn"
+            android:layout_height="@dimen/button_size0"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_bg_transparent_with_topstroke"
+            android:text="@string/next"
+            android:textSize="@dimen/ts_button2"
+            />
+
+
+    </TableRow>
+
+</RelativeLayout>

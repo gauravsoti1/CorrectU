@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/margin2"
+    android:layout_marginLeft="@dimen/margin2"
+    android:layout_marginRight="@dimen/margin2"
+    android:layout_marginStart="@dimen/margin2"
+    android:background="@null">
+
+    <ListView
+        android:id="@+id/word_suggestion_list"
+        android:name="androidavengers.correctu.storage_room_screen.WordSuggestionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        tools:context="androidavengers.correctu.storage_room_screen.WordSuggestionFragment"
+        tools:listitem="@layout/word_suggestion_list_item" />
+
+</FrameLayout>

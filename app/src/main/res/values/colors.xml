@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8bc34a</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!-- ########## Other Background Colors ########## -->
+
+    <color name="bg_color1">#3f51b5</color>
+    <color name="bg_color2">#4caf50</color>
+    <color name="bg_color3">#673ab7</color>
+    <color name="dark_blue">#3f51b5</color>
+        <array name="background_colors">
+            <item >@color/bg_color1</item>
+            <item >@color/bg_color2</item>
+            <item >@color/bg_color3</item>
+
+
+
+
+
+        </array>
+
+    <!-- ############################################# -->
+
+</resources>

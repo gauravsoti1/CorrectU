@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="androidavengers.correctu.storage_room_screen.StorageRoomActivityFragment"
+    tools:showIn="@layout/activity_storage_room">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/enter_word_cardview_container"
+        >
+
+        <EditText
+            android:id="@+id/enter_word_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ts_display1"
+            android:textColor="@color/colorPrimary"
+            android:singleLine="true"
+            android:inputType="textFilter|textNoSuggestions"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <fragment
+        android:id="@+id/word_suggestion_fragment"
+        android:name="androidavengers.correctu.storage_room_screen.WordSuggestionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:paddingLeft="@dimen/margin4"
+        android:paddingRight="@dimen/margin4"
+        android:paddingTop="@dimen/margin2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout="@layout/fragment_storage_room" />
+
+
+</LinearLayout>

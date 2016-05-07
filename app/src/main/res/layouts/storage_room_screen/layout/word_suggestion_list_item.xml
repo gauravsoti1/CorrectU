@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+
+    <TextView
+        android:id="@+id/word_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/save_word_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/margin4"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_toLeftOf="@+id/save_word_button"
+        android:layout_toStartOf="@+id/save_word_button"
+        android:textSize="@dimen/ts_body2"
+        tools:text="dkjvdskj dskjnvkjsvjkds " />
+
+
+    <Button
+        android:id="@+id/save_word_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/margin3"
+        android:layout_marginRight="@dimen/margin3"
+        android:layout_marginTop="@dimen/margin3"
+        android:background="@color/colorAccent"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/ts_body2" />
+
+
+    <TextView
+        android:id="@+id/word_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save_word_button"
+        android:layout_marginBottom="@dimen/margin5"
+        android:layout_marginTop="@dimen/margin5"
+        android:layout_marginLeft="@dimen/margin5"
+        android:layout_marginStart="@dimen/margin5"
+        tools:text="dvsdkjvsdj vsdkjhvkjsdvkj sdv skdjhvkdsj vsdkjhvkjsdv kjsdhvsdk vkjs" />
+
+    <TextView
+        android:id="@+id/meaning_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_suggestion"
+        android:layout_marginBottom="@dimen/margin5"
+        android:layout_marginEnd="@dimen/margin2"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginRight="@dimen/margin2"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/margin3"
+        android:background="@null"
+        android:text="@string/meaning"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/ts_body2" />
+
+</RelativeLayout>

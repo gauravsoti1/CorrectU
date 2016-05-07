@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">CorrectU</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="spell">Spell</string>
+    <string name="title_activity_before_practice_screen">BeforePracticeScreen</string>
+    <string name="title_activity_storage_room">StorageRoomActivity</string>
+    <string name="save">SAVE</string>
+    <string name="meaning">Meaning</string>
+    <string name="title_activity_saved_word_screen">Words</string>
+    <string name="title_activity_start_practice_screen_view_pager">
+        StartPracticeScreenViewPagerActivity
+    </string>
+    <string name="instant_save_notification_key">instant_save</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="previous">PREV</string>
+    <string name="next">NEXT</string>
+    <string name="activate_persistent_notification_instruction"><b>Save word anywhere</b> <br />
+        Any word you would like to practice, you can easily save from anywhere on your phone in your notification drawer. You can choose to activate this feature now or later from the settings. </string>
+    <string name="activate">ACTIVATE</string>
+    <string name="later">LATER</string>
+    <string name="title_activity_settings">CorrectU Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_instant_save">Enable instant save</string>
+    <string name="pref_description_instant_save">Easily open instant save feature from notification
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>
